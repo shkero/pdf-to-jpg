@@ -15,7 +15,7 @@ set JPGFILE=%PDFFILE:.pdf=-%%%d.jpg
 
 set GS=%2
 IF "%GS%" == "" (
-	set GS="bin/gswin32c.exe"
+	set GS="bin/gswin64c.exe"
 )
 
 echo loading %GS%...
